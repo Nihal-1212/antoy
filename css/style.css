@@ -1,0 +1,55 @@
+/*
+Necessary Information
+-------------------------
+Template Name: Aytor
+Version: 1.0.0
+Author: Aytor
+/----/-----/-----/-----/-----/----/----/
+****************** Code-menu - S ******************
+   (1) Navigation Section
+****************** Code-menu - E ******************
+*/
+/*--------------- Common Css Start ---------------*/
+body{
+   font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Josefin Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,small,span,
+ol,ul{
+   margin: 0;
+   padding: 0;
+}
+ol,ul{
+   list-style-type: none;
+}
+a{
+   text-decoration: none;
+}
+/*--------------- Common Css End ---------------*/
+/*------------------- PSD common color start ----------------*/
+:root{
+   --Text_Color: #11161E;
+   --Paragraph_Color:#444444;
+   /*--------------------*/
+   --Primary_Color: #FF6F61;
+   --Primary_Color_2nd: #FF5645;
+   --Primary_Color_3D: #151A32;
+   /*--------------------*/
+   --box_color: #A6AAB7;
+   --Background_Color: #F1F1F1;
+   --BG: #F1F3F4;
+   --black: #000000;
+}
+/*------------------- PSD common color end ------------------*/
+/*------------------- (1) Navigation start ----------------*/
+#N_menu .nav-item{
+   font-family: 'Josefin Sans';
+   text-transform: uppercase;
+   color: #11161E;
+   font-weight: 400;
+   font-size: 16px;
+}
+/*------------------- (1) Navigation end ------------------*/
